@@ -17,9 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/ppjmpd/cyrilla.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "keywords": [
     "latin",
     "cyrillic",
