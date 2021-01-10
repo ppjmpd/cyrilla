@@ -50,7 +50,11 @@ console.log(cyrillic1865);
 // Output: 'Сполеченьство пржишлошци'
 ```
 
-### `new RulesGenerator(rules, vowels, consonants)`
+### `new RulesGenerator(rules: Rules, vowels: string[], consonants: string[])`
+
+```ts
+type Rules = Record<string, string>;
+```
 
 #### `RulesGenerator.create(from, to, options: CreateOptions)`
 
