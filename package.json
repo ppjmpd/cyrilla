@@ -1,6 +1,6 @@
 {
   "name": "@ppjmpd/cyrilla",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Transliteration from the Latin script to the Cyrillic script (сyrillization) and vice-versa (romanization)",
   "main": "build/index.js",
   "scripts": {
