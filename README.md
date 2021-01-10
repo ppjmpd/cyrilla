@@ -29,7 +29,9 @@ console.log(cyrillic);
 
 ## API
 
-### `cyrilla(text: string, options: CyrillaOptions)`
+### `cyrilla()` function
+
+#### `cyrilla(text: string, options: CyrillaOptions)`
 
 ```ts
 interface CyrillaOptions {
@@ -37,6 +39,8 @@ interface CyrillaOptions {
   replacer?: Replacers;
 }
 ```
+
+#### Example
 
 From the Poland Latin script to Cyrillic script 1975:
 
@@ -50,13 +54,15 @@ console.log(cyrillic1865);
 // Output: 'Сполеченьство пржишлошци'
 ```
 
-### `new RulesGenerator(rules: Rules, vowels: string[], consonants: string[])`
+### `RulesGenerator` class
+
+#### `new RulesGenerator(rules: Rules, vowels: string[], consonants: string[])`
 
 ```ts
 type Rules = Record<string, string>;
 ```
 
-#### `RulesGenerator.create(from, to, options: CreateOptions)`
+#### `RulesGenerator.create(from: string, to: string, options: CreateOptions)`
 
 ```ts
 interface CreateOptions {
@@ -70,6 +76,8 @@ interface CreateOptions {
   afterConsonant?: boolean;
 }
 ```
+
+#### Example
 
 ```ts
 import { RulesGenerator } from 'cyrilla';
@@ -96,9 +104,13 @@ console.log(language);
 */
 ```
 
-### `new ReplacerRegEx(rules: Rules)`
+### `ReplacerRegEx` class
+
+#### `new ReplacerRegEx(rules: Rules)`
 
 #### `ReplacerRegEx.replace(word: string, upperCaseLetters?: number[])`
+
+#### Example
 
 ```ts
 import { ReplacerRegEx } from 'cyrilla';
@@ -114,9 +126,13 @@ console.log(result);
 // Output: 'Абц'
 ```
 
-### `new Tranliterator(replacer: Replacer)`
+### `Transliterator` class
+
+#### `new Tranliterator(replacer: Replacer)`
 
 #### `Tranliterator.transliterate(text: string)`
+
+#### Example
 
 ```ts
 import {
