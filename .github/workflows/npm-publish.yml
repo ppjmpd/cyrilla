@@ -34,7 +34,7 @@ jobs:
       - if: steps.modules-cache.outputs.cache-hit != 'true'
         run: npm ci
       - run: npm test
-      - run: npm build
+      - run: npm run build
       # Publish only if the `v*` tag
       # via Github Packages
       - if: startsWith(github.ref, 'refs/tags/v')
