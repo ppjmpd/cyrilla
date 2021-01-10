@@ -1,6 +1,6 @@
 {
   "name": "cyrilla",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Transliteration from the Latin script to the Cyrillic script (сyrillization) and vice-versa (romanization)",
   "main": "index.js",
   "scripts": {
