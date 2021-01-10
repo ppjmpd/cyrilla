@@ -1,8 +1,8 @@
 {
-  "name": "cyrilla",
+  "name": "@ppjmpd/cyrilla",
   "version": "0.2.0",
   "description": "Transliteration from the Latin script to the Cyrillic script (сyrillization) and vice-versa (romanization)",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "start": "node build/src/main.js",
     "clean": "rimraf coverage build tmp",
@@ -10,11 +10,15 @@
     "build:watch": "tsc -w -p tsconfig.release.json",
     "lint": "eslint . --ext .ts,.tsx",
     "test": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "prepublishOnly": "npm run clean && npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ppjmpd/cyrilla.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "latin",

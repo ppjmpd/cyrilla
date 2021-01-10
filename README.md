@@ -12,7 +12,7 @@
 Add to your project:
 
 ```
-npm i ppjmpd/cyrilla
+npm i @ppjmpd/cyrilla
 ```
 
 ## Usage
