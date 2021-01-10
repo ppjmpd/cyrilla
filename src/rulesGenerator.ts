@@ -25,7 +25,7 @@ export const START = '^';
 export const END = '$';
 
 export class RulesGenerator {
-  private rules: Rules;
+  private readonly rules: Rules;
   private readonly vowels: string[];
   private readonly consonants: string[];
 
