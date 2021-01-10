@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrauhu/cyrilla.git"
+    "url": "git+https://github.com/ppjmpd/cyrilla.git"
   },
   "keywords": [
     "latin",
@@ -26,9 +26,9 @@
   "author": "Sergey N <mrauhu@yandex.ru> (https://mrauhu.ru/)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/mrauhu/cyrilla/issues"
+    "url": "https://github.com/ppjmpd/cyrilla/issues"
   },
-  "homepage": "https://github.com/mrauhu/cyrilla#readme",
+  "homepage": "https://github.com/ppjmpd/cyrilla#readme",
   "engines": {
     "node": ">= 14"
   },

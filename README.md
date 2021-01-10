@@ -12,7 +12,7 @@
 Add to your project:
 
 ```
-npm i mrauhu/cyrilla
+npm i ppjmpd/cyrilla
 ```
 
 ## Usage
@@ -155,7 +155,7 @@ console.log(result);
 Clone repository:
 
 ```
-git clone https://github.com/mrauhu/cyrilla
+git clone https://github.com/ppjmpd/cyrilla
 ```
 
 ```
