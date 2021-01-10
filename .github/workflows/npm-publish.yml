@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-          scope: @ppjmpd
+          scope: '@ppjmpd'
       # Removes the `version` key from a `package-lock.json`
       - uses: mrauhu/deversion@v1
       # Now you have same key if the dependencies is haven't changed
@@ -47,7 +47,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-          scope: @ppjmpd
+          scope: '@ppjmpd'
       # and publish via NPM
       - if: startsWith(github.ref, 'refs/tags/v')
         run: npm publish
